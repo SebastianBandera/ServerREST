@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.subTitle {
+	font-size: 1.25em;
+}
+
+.infoName {
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 10px;
+	width: 90px;
+	text-align: right;
+}
+
+.infoName::after {
+	content: ":";
+}
+
+.infoValue {
+	display: inline-block;
+}
+
+.listItemContainer {
+	padding-bottom: 10px;
+}
